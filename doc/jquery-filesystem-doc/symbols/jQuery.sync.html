@@ -1,0 +1,1489 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="generator" content="JsDoc Toolkit" />
+		
+		<title>JsDoc Reference - jQuery.sync</title>
+
+		<style type="text/css">
+			/* default.css */
+body
+{
+	font: 12px "Lucida Grande", Tahoma, Arial, Helvetica, sans-serif;
+	width: 800px;
+}
+
+.header
+{
+	clear: both;
+	background-color: #ccc;
+	padding: 8px;
+}
+
+h1
+{
+	font-size: 150%;
+	font-weight: bold;
+	padding: 0;
+	margin: 1em 0 0 .3em;
+}
+
+hr
+{
+	border: none 0;
+	border-top: 1px solid #7F8FB1;
+	height: 1px;
+}
+
+pre.code
+{
+	display: block;
+	padding: 8px;
+	border: 1px dashed #ccc;
+}
+
+#index
+{
+	margin-top: 24px;
+	float: left;
+	width: 160px;
+	position: absolute;
+	left: 8px;
+	background-color: #F3F3F3;
+	padding: 8px;
+}
+
+#content
+{
+	margin-left: 190px;
+	width: 600px;
+}
+
+.classList
+{
+	list-style-type: none;
+	padding: 0;
+	margin: 0 0 0 8px;
+	font-family: arial, sans-serif;
+	font-size: 1em;
+	overflow: auto;
+}
+
+.classList li
+{
+	padding: 0;
+	margin: 0 0 8px 0;
+}
+
+.summaryTable { width: 100%; }
+
+h1.classTitle
+{
+	font-size:170%;
+	line-height:130%;
+}
+
+h2 { font-size: 110%; }
+caption, div.sectionTitle
+{
+	background-color: #7F8FB1;
+	color: #fff;
+	font-size:130%;
+	text-align: left;
+	padding: 2px 6px 2px 6px;
+	border: 1px #7F8FB1 solid;
+}
+
+div.sectionTitle { margin-bottom: 8px; }
+.summaryTable thead { display: none; }
+
+.summaryTable td
+{
+	vertical-align: top;
+	padding: 4px;
+	border-bottom: 1px #7F8FB1 solid;
+	border-right: 1px #7F8FB1 solid;
+}
+
+/*col#summaryAttributes {}*/
+.summaryTable td.attributes
+{
+	border-left: 1px #7F8FB1 solid;
+	width: 140px;
+	text-align: right;
+}
+
+td.attributes, .fixedFont
+{
+	line-height: 15px;
+	color: #002EBE;
+	font-family: "Courier New",Courier,monospace;
+	font-size: 13px;
+}
+
+.summaryTable td.nameDescription
+{
+	text-align: left;
+	font-size: 13px;
+	line-height: 15px;
+}
+
+.summaryTable td.nameDescription, .description
+{
+	line-height: 15px;
+	padding: 4px;
+	padding-left: 4px;
+}
+
+.summaryTable { margin-bottom: 8px; }
+
+ul.inheritsList
+{
+	list-style: square;
+	margin-left: 20px;
+	padding-left: 0;
+}
+
+.detailList {
+	margin-left: 20px; 
+	line-height: 15px;
+}
+.detailList dt { margin-left: 20px; }
+
+.detailList .heading
+{
+	font-weight: bold;
+	padding-bottom: 6px;
+	margin-left: 0;
+}
+
+.light, td.attributes, .light a:link, .light a:visited
+{
+	color: #777;
+	font-style: italic;
+}
+
+.fineprint
+{
+	text-align: right;
+	font-size: 10px;
+}
+		</style>
+	</head>
+
+	<body>
+<!-- ============================== header ================================= -->	
+		<!-- begin static/header.html -->
+		<div id="header">
+</div>
+		<!-- end static/header.html -->
+
+<!-- ============================== classes index ============================ -->
+		<div id="index">
+			<!-- begin publish.classesIndex -->
+			<div align="center"><a href="../index.html">Class Index</a>
+| <a href="../files.html">File Index</a></div>
+<hr />
+<h2>Classes</h2>
+<ul class="classList">
+	
+	<li><i><a href="../symbols/_global_.html">_global_</a></i></li>
+	
+	<li><a href="../symbols/jQuery.fs.html">jQuery.fs</a></li>
+	
+	<li><a href="../symbols/jQuery.fs.DirectoryEntry.html">jQuery.fs.DirectoryEntry</a></li>
+	
+	<li><a href="../symbols/jQuery.fs.DirectoryReader.html">jQuery.fs.DirectoryReader</a></li>
+	
+	<li><a href="../symbols/jQuery.fs.Entry.html">jQuery.fs.Entry</a></li>
+	
+	<li><a href="../symbols/jQuery.fs.FileEntry.html">jQuery.fs.FileEntry</a></li>
+	
+	<li><a href="../symbols/jQuery.fs.FileSystem.html">jQuery.fs.FileSystem</a></li>
+	
+	<li><a href="../symbols/jQuery.sync.html">jQuery.sync</a></li>
+	
+	<li><a href="../symbols/jQuery.sync.CONFLICT_POLICY.html">jQuery.sync.CONFLICT_POLICY</a></li>
+	
+</ul>
+<hr />
+			<!-- end publish.classesIndex -->
+		</div>
+		
+		<div id="content">
+<!-- ============================== class title ============================ -->
+			<h1 class="classTitle">
+				
+				Class jQuery.sync
+			</h1>
+
+<!-- ============================== class summary ========================== -->			
+			<p class="description">
+				
+				
+			
+				<p>This class provides DB synchronization features for offline capabilities</p>
+				
+				
+					<br /><i>Defined in: </i> <a href="../symbols/src/jquery-sync.js.html">jquery-sync.js</a>.
+				
+			</p>
+
+<!-- ============================== constructor summary ==================== -->			
+			
+			<table class="summaryTable" cellspacing="0" summary="A summary of the constructor documented in the class jQuery.sync.">
+				<caption>Class Summary</caption>
+				<thead>
+					<tr>
+						<th scope="col">Constructor Attributes</th>
+						<th scope="col">Constructor Name and Description</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td class="attributes">&nbsp;</td>
+						<td class="nameDescription" >
+							<div class="fixedFont">
+								<b><a href="../symbols/jQuery.sync.html#constructor">jQuery.sync</a></b>(sDBName, sRemoteIDPath, oConfig, eConflictPolicy, iVersion)
+							</div>
+							<div class="description">Constructor for a new jQuery.sync.</div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			
+
+<!-- ============================== properties summary ===================== -->
+			
+				
+				
+				
+				
+			
+
+<!-- ============================== methods summary ======================== -->
+			
+				
+				
+				<table class="summaryTable" cellspacing="0" summary="A summary of the methods documented in the class jQuery.sync.">
+					<caption>Method Summary</caption>
+					<thead>
+						<tr>
+							<th scope="col">Method Attributes</th>
+							<th scope="col">Method Name and Description</th>
+						</tr>
+					</thead>
+					<tbody>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/jQuery.sync.html#add">add</a></b>(oData)
+								</div>
+								<div class="description">Add a record into local DB</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/jQuery.sync.html#close">close</a></b>()
+								</div>
+								<div class="description">Synchronously close any connection to the database</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/jQuery.sync.html#deleteDB">deleteDB</a></b>()
+								</div>
+								<div class="description">Delete database and all its content</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/jQuery.sync.html#get">get</a></b>(vKey?)
+								</div>
+								<div class="description">Fetch records from local DB.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/jQuery.sync.html#getByIndex">getByIndex</a></b>(sIndexName, vValue)
+								</div>
+								<div class="description">Fetch records from local DB by their value on an indexed property</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/jQuery.sync.html#getByRemoteID">getByRemoteID</a></b>(vValue)
+								</div>
+								<div class="description">Fetch records from local DB by their remote ID (ie.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/jQuery.sync.html#getConflictPolicy">getConflictPolicy</a></b>()
+								</div>
+								<div class="description">Getter for property <code>conflictPolicy</code>.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/jQuery.sync.html#getConnection">getConnection</a></b>()
+								</div>
+								<div class="description">Getter for property <code>connection</code>.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/jQuery.sync.html#getDBName">getDBName</a></b>()
+								</div>
+								<div class="description">Getter for property <code>DBName</code>.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/jQuery.sync.html#getLastSyncDate">getLastSyncDate</a></b>()
+								</div>
+								<div class="description">Getter for persistent property <code>lastSyncDate</code></div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/jQuery.sync.html#getRemoteIDPath">getRemoteIDPath</a></b>()
+								</div>
+								<div class="description">Getter for property <code>remoteIDPath</code>.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/jQuery.sync.html#getVersion">getVersion</a></b>()
+								</div>
+								<div class="description">Getter for property <code>version</code>.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/jQuery.sync.html#init">init</a></b>()
+								</div>
+								<div class="description">Initialize DB.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/jQuery.sync.html#put">put</a></b>(oRecord)
+								</div>
+								<div class="description">Update a record into local DB</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/jQuery.sync.html#reset">reset</a></b>()
+								</div>
+								<div class="description">Clear database content</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/jQuery.sync.html#setConflictPolicy">setConflictPolicy</a></b>(sConflictPolicy)
+								</div>
+								<div class="description">Setter for property <code>conflictPolicy</code>.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/jQuery.sync.html#setConnection">setConnection</a></b>(oConnection)
+								</div>
+								<div class="description">Setter for property <code>connection</code>.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/jQuery.sync.html#setDBName">setDBName</a></b>(sDBName)
+								</div>
+								<div class="description">Setter for property <code>DBName</code>.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/jQuery.sync.html#setLastSyncDate">setLastSyncDate</a></b>(iLastSyncDate)
+								</div>
+								<div class="description">Setter for persistent property <code>lastSyncDate</code></div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/jQuery.sync.html#setRemoteIDPath">setRemoteIDPath</a></b>(sRemoteIDPath)
+								</div>
+								<div class="description">Setter for property <code>remoteIDPath</code>.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/jQuery.sync.html#setVersion">setVersion</a></b>(iVersion)
+								</div>
+								<div class="description">Setter for property <code>version</code>.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/jQuery.sync.html#syncNow">syncNow</a></b>()
+								</div>
+								<div class="description">Synchronize DB with server</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/jQuery.sync.html#syncSince">syncSince</a></b>(iSyncDate)
+								</div>
+								<div class="description">Synchronize local DB with server since a date</div>
+							</td>
+						</tr>
+					
+					</tbody>
+				</table>
+				
+				
+				
+			
+<!-- ============================== events summary ======================== -->
+			
+
+<!-- ============================== constructor details ==================== -->		
+			
+			<div class="details"><a name="constructor"> </a>
+				<div class="sectionTitle">
+					Class Detail
+				</div>
+				
+				<div class="fixedFont">
+						<b>jQuery.sync</b>(sDBName, sRemoteIDPath, oConfig, eConflictPolicy, iVersion)
+				</div>
+				
+				<div class="description">
+					Constructor for a new jQuery.sync.
+					
+				</div>
+				
+				
+				
+				
+					
+						<dl class="detailList">
+						<dt class="heading">Parameters:</dt>
+						
+							<dt>
+								<span class="light fixedFont">{string}</span>  <b>sDBName</b>
+								
+							</dt>
+								<dd>name of the database</dd>
+						
+							<dt>
+								<span class="light fixedFont">{string}</span>  <b>sRemoteIDPath</b>
+								
+							</dt>
+								<dd>a path to server's ID in object properties (mandatory to create index)</dd>
+						
+							<dt>
+								<span class="light fixedFont">{object}</span>  <b>oConfig</b>
+								
+							</dt>
+								<dd>configuration object that contains actual configuration</dd>
+						
+							<dt>
+								<span class="light fixedFont">{function}</span>  <b>oConfig.create</b>
+								
+							</dt>
+								<dd>function to send locally-created records to server. It takes a record object as only parameter.</dd>
+						
+							<dt>
+								<span class="light fixedFont">{function}</span>  <b>oConfig.requestSinceDate</b>
+								
+							</dt>
+								<dd>function to fetch records from server since a Date. It takes a Date object as only optional parameter. If parameter is not provided, it fetches all records.</dd>
+						
+							<dt>
+								<span class="light fixedFont">{function}</span>  <b>oConfig.update</b>
+								
+							</dt>
+								<dd>function to send locally-updated records to server. It takes a record object as only parameter.</dd>
+						
+							<dt>
+								<span class="light fixedFont">{function}</span>  <b>oConfig.remove</b>
+								
+							</dt>
+								<dd>function to send locally-deleted records to server ("delete" is not used as it is a reserved keyword in JavaScript).. It takes a record object as only parameter.</dd>
+						
+							<dt>
+								<span class="light fixedFont">{object}</span>  <b>oConfig.indexes</b>
+								
+							</dt>
+								<dd>map of strings representing indexes to create. Each entry is of type <code>index_name</code>: <code>path_to_value</code></dd>
+						
+							<dt>
+								<span class="light fixedFont">{$.sync.CONFLICT_POLICY}</span>  <b>eConflictPolicy</b>
+								
+							</dt>
+								<dd>determines how conflicts should be resolved: always trust the server (<code>SERVER_IS_ALWAYS_RIGHT</code>) or the client (<code>CLIENT_IS_ALWAYS_RIGHT</code> - default).</dd>
+						
+							<dt>
+								<span class="light fixedFont">{integer}</span>  <b>iVersion</b>
+								
+							</dt>
+								<dd>version number of the database</dd>
+						
+						</dl>
+					
+					
+					
+					
+					
+					
+					
+
+			</div>
+			
+
+<!-- ============================== field details ========================== -->		
+			
+
+<!-- ============================== method details ========================= -->		
+			
+				<div class="sectionTitle">
+					Method Detail
+				</div>
+				
+					<a name="add"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{jQuery.Deferred}</span>
+					<b>add</b>(oData)
+					
+					</div>
+					<div class="description">
+						Add a record into local DB
+						
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{object}</span> <b>oData</b>
+									
+								</dt>
+								<dd>data to add</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{jQuery.Deferred}</span> the DB request object</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="close"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/jQuery.sync.html">jQuery.sync</a>}</span>
+					<b>close</b>()
+					
+					</div>
+					<div class="description">
+						Synchronously close any connection to the database
+						
+						
+					</div>
+					
+					
+					
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/jQuery.sync.html">jQuery.sync</a>}</span> <code>this</code> to allow method chaining</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="deleteDB"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{jQuery.Deferred}</span>
+					<b>deleteDB</b>()
+					
+					</div>
+					<div class="description">
+						Delete database and all its content
+						
+						
+					</div>
+					
+					
+					
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{jQuery.Deferred}</span> the DB request object wrapped within an enhanced jQuery.Deferred object. This object provides 2 additional methods:<ul>	<li><code>blocked</code> : callback function for <code>onblocked</code> event</li></ul></dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="get"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{jQuery.Deferred}</span>
+					<b>get</b>(vKey?)
+					
+					</div>
+					<div class="description">
+						Fetch records from local DB.Return the record with <code>vKey</code> as key if provided or all stored records otherwise.
+						
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{any}</span> <b>vKey?</b>
+									<i>Optional</i>
+								</dt>
+								<dd>the key of record to fetch</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{jQuery.Deferred}</span> the DB request object.</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getByIndex"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{jQuery.Deferred}</span>
+					<b>getByIndex</b>(sIndexName, vValue)
+					
+					</div>
+					<div class="description">
+						Fetch records from local DB by their value on an indexed property
+						
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{string}</span> <b>sIndexName</b>
+									
+								</dt>
+								<dd>the name of the index to use to fetch data</dd>
+							
+								<dt>
+									<span class="light fixedFont">{any}</span> <b>vValue</b>
+									
+								</dt>
+								<dd>the value of the indexed property</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{jQuery.Deferred}</span> the DB request object.</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getByRemoteID"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{jQuery.Deferred}</span>
+					<b>getByRemoteID</b>(vValue)
+					
+					</div>
+					<div class="description">
+						Fetch records from local DB by their remote ID (ie. the ID used on server)
+						
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{any}</span> <b>vValue</b>
+									
+								</dt>
+								<dd>the value of the remote ID</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{jQuery.Deferred}</span> the DB request object.</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getConflictPolicy"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{string}</span>
+					<b>getConflictPolicy</b>()
+					
+					</div>
+					<div class="description">
+						Getter for property <code>conflictPolicy</code>.
+						
+						
+					</div>
+					
+					
+					
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{string}</span> the value of property <code>conflictPolicy</code></dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getConnection"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{object}</span>
+					<b>getConnection</b>()
+					
+					</div>
+					<div class="description">
+						Getter for property <code>connection</code>.
+						
+						
+					</div>
+					
+					
+					
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{object}</span> the value of property <code>connection</code></dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getDBName"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{string}</span>
+					<b>getDBName</b>()
+					
+					</div>
+					<div class="description">
+						Getter for property <code>DBName</code>.
+						
+						
+					</div>
+					
+					
+					
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{string}</span> the value of property <code>DBName</code></dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getLastSyncDate"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{jQuery.Deferred}</span>
+					<b>getLastSyncDate</b>()
+					
+					</div>
+					<div class="description">
+						Getter for persistent property <code>lastSyncDate</code>
+						
+						
+					</div>
+					
+					
+					
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{jQuery.Deferred}</span> the DB request object fetching persistent property <code>lastSyncDate</code></dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getRemoteIDPath"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{string}</span>
+					<b>getRemoteIDPath</b>()
+					
+					</div>
+					<div class="description">
+						Getter for property <code>remoteIDPath</code>.
+						
+						
+					</div>
+					
+					
+					
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{string}</span> the value of property <code>remoteIDPath</code></dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getVersion"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{string}</span>
+					<b>getVersion</b>()
+					
+					</div>
+					<div class="description">
+						Getter for property <code>version</code>.
+						
+						
+					</div>
+					
+					
+					
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{string}</span> the value of property <code>version</code></dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="init"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{jQuery.Deferred}</span>
+					<b>init</b>()
+					
+					</div>
+					<div class="description">
+						Initialize DB.
+						
+						
+					</div>
+					
+					
+					
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{jQuery.Deferred}</span> the DB request object.</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="put"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{jQuery.Deferred}</span>
+					<b>put</b>(oRecord)
+					
+					</div>
+					<div class="description">
+						Update a record into local DB
+						
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{object}</span> <b>oRecord</b>
+									
+								</dt>
+								<dd>the full record (with metadata) to update</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{jQuery.Deferred}</span> the DB request object</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="reset"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{jQuery.Deferred}</span>
+					<b>reset</b>()
+					
+					</div>
+					<div class="description">
+						Clear database content
+						
+						
+					</div>
+					
+					
+					
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{jQuery.Deferred}</span> the DB request object</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="setConflictPolicy"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/jQuery.sync.html">jQuery.sync</a>}</span>
+					<b>setConflictPolicy</b>(sConflictPolicy)
+					
+					</div>
+					<div class="description">
+						Setter for property <code>conflictPolicy</code>.
+						
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{string}</span> <b>sConflictPolicy</b>
+									
+								</dt>
+								<dd>new value for property <code>conflictPolicy</code></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/jQuery.sync.html">jQuery.sync</a>}</span> <code>this</code> to allow method chaining</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="setConnection"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/jQuery.sync.html">jQuery.sync</a>}</span>
+					<b>setConnection</b>(oConnection)
+					
+					</div>
+					<div class="description">
+						Setter for property <code>connection</code>.
+						
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{object}</span> <b>oConnection</b>
+									
+								</dt>
+								<dd>new value for property <code>connection</code></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/jQuery.sync.html">jQuery.sync</a>}</span> <code>this</code> to allow method chaining</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="setDBName"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/jQuery.sync.html">jQuery.sync</a>}</span>
+					<b>setDBName</b>(sDBName)
+					
+					</div>
+					<div class="description">
+						Setter for property <code>DBName</code>.
+						
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{string}</span> <b>sDBName</b>
+									
+								</dt>
+								<dd>new value for property <code>DBName</code></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/jQuery.sync.html">jQuery.sync</a>}</span> <code>this</code> to allow method chaining</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="setLastSyncDate"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{jQuery.Deferred}</span>
+					<b>setLastSyncDate</b>(iLastSyncDate)
+					
+					</div>
+					<div class="description">
+						Setter for persistent property <code>lastSyncDate</code>
+						
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{integer}</span> <b>iLastSyncDate</b>
+									
+								</dt>
+								<dd>timestamp as new value for persistent property <code>lastSyncDate</code></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{jQuery.Deferred}</span> the DB request object setting persistent property <code>lastSyncDate</code></dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="setRemoteIDPath"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/jQuery.sync.html">jQuery.sync</a>}</span>
+					<b>setRemoteIDPath</b>(sRemoteIDPath)
+					
+					</div>
+					<div class="description">
+						Setter for property <code>remoteIDPath</code>.
+						
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{string}</span> <b>sRemoteIDPath</b>
+									
+								</dt>
+								<dd>new value for property <code>remoteIDPath</code></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/jQuery.sync.html">jQuery.sync</a>}</span> <code>this</code> to allow method chaining</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="setVersion"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/jQuery.sync.html">jQuery.sync</a>}</span>
+					<b>setVersion</b>(iVersion)
+					
+					</div>
+					<div class="description">
+						Setter for property <code>version</code>.
+						
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{integer}</span> <b>iVersion</b>
+									
+								</dt>
+								<dd>new value for property <code>version</code></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/jQuery.sync.html">jQuery.sync</a>}</span> <code>this</code> to allow method chaining</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="syncNow"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{jQuery.Deferred}</span>
+					<b>syncNow</b>()
+					
+					</div>
+					<div class="description">
+						Synchronize DB with server
+						
+						
+					</div>
+					
+					
+					
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{jQuery.Deferred}</span> the DB request object</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="syncSince"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{jQuery.Deferred}</span>
+					<b>syncSince</b>(iSyncDate)
+					
+					</div>
+					<div class="description">
+						Synchronize local DB with server since a date
+						
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{int}</span> <b>iSyncDate</b>
+									
+								</dt>
+								<dd>a timestamp referencing the date of the sync reference</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{jQuery.Deferred}</span> the DB request object</dd>
+							
+							</dl>
+						
+						
+						
+
+					
+				
+			
+			
+<!-- ============================== event details ========================= -->		
+			
+			
+			<hr />
+		</div>
+
+		
+<!-- ============================== footer ================================= -->
+		<div class="fineprint" style="clear:both">
+			
+			Documentation generated by <a href="http://code.google.com/p/jsdoc-toolkit/" target="_blank">JsDoc Toolkit</a> 2.4.0 on Tue Apr 15 2014 14:30:30 GMT+0200 (CEST)
+		</div>
+	</body>
+</html>
