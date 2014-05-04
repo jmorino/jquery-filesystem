@@ -5,7 +5,7 @@
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="generator" content="JsDoc Toolkit" />
 		
-		<title>JsDoc Reference - jQuery.fs.FileEntry</title>
+		<title>JsDoc Reference - jQuery.filesystem.FileSystem</title>
 
 		<style type="text/css">
 			/* default.css */
@@ -191,17 +191,17 @@ ul.inheritsList
 	
 	<li><i><a href="../symbols/_global_.html">_global_</a></i></li>
 	
-	<li><a href="../symbols/jQuery.fs.html">jQuery.fs</a></li>
+	<li><a href="../symbols/jQuery.filesystem.html">jQuery.filesystem</a></li>
 	
-	<li><a href="../symbols/jQuery.fs.DirectoryEntry.html">jQuery.fs.DirectoryEntry</a></li>
+	<li><a href="../symbols/jQuery.filesystem.DirectoryEntry.html">jQuery.filesystem.DirectoryEntry</a></li>
 	
-	<li><a href="../symbols/jQuery.fs.DirectoryReader.html">jQuery.fs.DirectoryReader</a></li>
+	<li><a href="../symbols/jQuery.filesystem.DirectoryReader.html">jQuery.filesystem.DirectoryReader</a></li>
 	
-	<li><a href="../symbols/jQuery.fs.Entry.html">jQuery.fs.Entry</a></li>
+	<li><a href="../symbols/jQuery.filesystem.Entry.html">jQuery.filesystem.Entry</a></li>
 	
-	<li><a href="../symbols/jQuery.fs.FileEntry.html">jQuery.fs.FileEntry</a></li>
+	<li><a href="../symbols/jQuery.filesystem.FileEntry.html">jQuery.filesystem.FileEntry</a></li>
 	
-	<li><a href="../symbols/jQuery.fs.FileSystem.html">jQuery.fs.FileSystem</a></li>
+	<li><a href="../symbols/jQuery.filesystem.FileSystem.html">jQuery.filesystem.FileSystem</a></li>
 	
 </ul>
 <hr />
@@ -212,26 +212,24 @@ ul.inheritsList
 <!-- ============================== class title ============================ -->
 			<h1 class="classTitle">
 				
-				Class jQuery.fs.FileEntry
+				Class jQuery.filesystem.FileSystem
 			</h1>
 
 <!-- ============================== class summary ========================== -->			
 			<p class="description">
 				
-				<br />Extends
-					<a href="../symbols/jQuery.fs.Entry.html">jQuery.fs.Entry</a>.<br />
 				
 			
-				<p>This class provides jQuery wrapping features for FileEntry interface</p>
+				<p>This class provides jQuery wrapping features for FileSystem interface</p>
 				
 				
-					<br /><i>Defined in: </i> <a href="../symbols/src/jquery-filesystem.js.html">jquery-filesystem.js</a>.
+					<br /><i>Defined in: </i> <a href="../symbols/src/src_jquery.filesystem.js.html">jquery.filesystem.js</a>.
 				
 			</p>
 
 <!-- ============================== constructor summary ==================== -->			
 			
-			<table class="summaryTable" cellspacing="0" summary="A summary of the constructor documented in the class jQuery.fs.FileEntry.">
+			<table class="summaryTable" cellspacing="0" summary="A summary of the constructor documented in the class jQuery.filesystem.FileSystem.">
 				<caption>Class Summary</caption>
 				<thead>
 					<tr>
@@ -244,9 +242,9 @@ ul.inheritsList
 						<td class="attributes">&nbsp;</td>
 						<td class="nameDescription" >
 							<div class="fixedFont">
-								<b><a href="../symbols/jQuery.fs.FileEntry.html#constructor">jQuery.fs.FileEntry</a></b>(oEntry, oFileSystem)
+								<b><a href="../symbols/jQuery.filesystem.FileSystem.html#constructor">jQuery.filesystem.FileSystem</a></b>(oFileSystem)
 							</div>
-							<div class="description">Constructor for a new jQuery.fs.FileEntry.</div>
+							<div class="description">Constructor for a new jQuery.filesystem.FileSystem.</div>
 						</td>
 					</tr>
 				</tbody>
@@ -257,24 +255,12 @@ ul.inheritsList
 			
 				
 				
-				
-				
-				<dl class="inheritsList">
-				<dt>Fields borrowed from class <a href="../symbols/jQuery.fs.Entry.html">jQuery.fs.Entry</a>: </dt><dd><a href="../symbols/jQuery.fs.Entry.html#fileSystem">fileSystem</a>, <a href="../symbols/jQuery.fs.Entry.html#fullPath">fullPath</a>, <a href="../symbols/jQuery.fs.Entry.html#isDirectory">isDirectory</a>, <a href="../symbols/jQuery.fs.Entry.html#isFile">isFile</a>, <a href="../symbols/jQuery.fs.Entry.html#name">name</a></dd>
-				</dl>
-				
-			
-
-<!-- ============================== methods summary ======================== -->
-			
-				
-				
-				<table class="summaryTable" cellspacing="0" summary="A summary of the methods documented in the class jQuery.fs.FileEntry.">
-					<caption>Method Summary</caption>
+				<table class="summaryTable" cellspacing="0" summary="A summary of the fields documented in the class jQuery.filesystem.FileSystem.">
+					<caption>Field Summary</caption>
 					<thead>
 						<tr>
-							<th scope="col">Method Attributes</th>
-							<th scope="col">Method Name and Description</th>
+							<th scope="col">Field Attributes</th>
+							<th scope="col">Field Name and Description</th>
 						</tr>
 					</thead>
 					<tbody>
@@ -282,18 +268,20 @@ ul.inheritsList
 						<tr>
 							<td class="attributes">&nbsp;</td>
 							<td class="nameDescription">
-								<div class="fixedFont"><b><a href="../symbols/jQuery.fs.FileEntry.html#asFile">asFile</a></b>()
+								<div class="fixedFont">
+								<b><a href="../symbols/jQuery.filesystem.FileSystem.html#name">name</a></b>
 								</div>
-								<div class="description">Returns a <code>File</code> that represents the current state of the file that this FileEntry represents.</div>
+								<div class="description">Name of this FileSystem object</div>
 							</td>
 						</tr>
 					
 						<tr>
 							<td class="attributes">&nbsp;</td>
 							<td class="nameDescription">
-								<div class="fixedFont"><b><a href="../symbols/jQuery.fs.FileEntry.html#createWriter">createWriter</a></b>()
+								<div class="fixedFont">
+								<b><a href="../symbols/jQuery.filesystem.FileSystem.html#root">root</a></b>
 								</div>
-								<div class="description">Creates a new FileWriter associated with the file that this FileEntry represents.</div>
+								<div class="description">Root of this FileSystem object</div>
 							</td>
 						</tr>
 					
@@ -302,10 +290,9 @@ ul.inheritsList
 				
 				
 				
-				<dl class="inheritsList">
-				<dt>Methods borrowed from class <a href="../symbols/jQuery.fs.Entry.html">jQuery.fs.Entry</a>: </dt><dd><a href="../symbols/jQuery.fs.Entry.html#copyTo">copyTo</a>, <a href="../symbols/jQuery.fs.Entry.html#getMetaData">getMetaData</a>, <a href="../symbols/jQuery.fs.Entry.html#getParent">getParent</a>, <a href="../symbols/jQuery.fs.Entry.html#moveTo">moveTo</a>, <a href="../symbols/jQuery.fs.Entry.html#remove">remove</a></dd>
-				</dl>
-				
+			
+
+<!-- ============================== methods summary ======================== -->
 			
 <!-- ============================== events summary ======================== -->
 			
@@ -318,11 +305,11 @@ ul.inheritsList
 				</div>
 				
 				<div class="fixedFont">
-						<b>jQuery.fs.FileEntry</b>(oEntry, oFileSystem)
+						<b>jQuery.filesystem.FileSystem</b>(oFileSystem)
 				</div>
 				
 				<div class="description">
-					Constructor for a new jQuery.fs.FileEntry.
+					Constructor for a new jQuery.filesystem.FileSystem.
 					
 				</div>
 				
@@ -334,16 +321,10 @@ ul.inheritsList
 						<dt class="heading">Parameters:</dt>
 						
 							<dt>
-								<span class="light fixedFont">{Entry}</span>  <b>oEntry</b>
+								<span class="light fixedFont">{FileSystem}</span>  <b>oFileSystem</b>
 								
 							</dt>
-								<dd>native <code>Entry</code> reference</dd>
-						
-							<dt>
-								<span class="light fixedFont">{<a href="../symbols/jQuery.fs.FileSystem.html">jQuery.fs.FileSystem</a>}</span>  <b>oFileSystem</b>
-								<i>Optional</i>
-							</dt>
-								<dd>optional reference to <code>FileSystem</code> object. if not provided, a new wrapper object of native FileSystem reference is created</dd>
+								<dd>native <code>FileSystem</code> reference</dd>
 						
 						</dl>
 					
@@ -359,77 +340,57 @@ ul.inheritsList
 
 <!-- ============================== field details ========================== -->		
 			
-
-<!-- ============================== method details ========================= -->		
-			
 				<div class="sectionTitle">
-					Method Detail
+					Field Detail
 				</div>
 				
-					<a name="asFile"> </a>
+					<a name="name"> </a>
 					<div class="fixedFont">
 					
-					<span class="light">{jQuery.Deferred}</span>
-					<b>asFile</b>()
+					<span class="light">{string}</span>
+					<b>name</b>
 					
 					</div>
 					<div class="description">
-						Returns a <code>File</code> that represents the current state of the file that this FileEntry represents.
+						Name of this FileSystem object
 						
 						
 					</div>
 					
 					
-					
+
 						
-						
-						
-						
-						
-							<dl class="detailList">
-							<dt class="heading">Returns:</dt>
-							
-								<dd><span class="light fixedFont">{jQuery.Deferred}</span> a request object containing the result jQuery.fs.File object in case of success</dd>
-							
-							</dl>
 						
 						
 						
 
 					<hr />
 				
-					<a name="createWriter"> </a>
+					<a name="root"> </a>
 					<div class="fixedFont">
 					
-					<span class="light">{jQuery.Deferred}</span>
-					<b>createWriter</b>()
+					<span class="light">{<a href="../symbols/jQuery.filesystem.DirectoryEntry.html">jQuery.filesystem.DirectoryEntry</a>}</span>
+					<b>root</b>
 					
 					</div>
 					<div class="description">
-						Creates a new FileWriter associated with the file that this FileEntry represents.
+						Root of this FileSystem object
 						
 						
 					</div>
 					
 					
-					
+
 						
-						
-						
-						
-						
-							<dl class="detailList">
-							<dt class="heading">Returns:</dt>
-							
-								<dd><span class="light fixedFont">{jQuery.Deferred}</span> a request object containing the result FileWriter object in case of success</dd>
-							
-							</dl>
 						
 						
 						
 
 					
 				
+			
+
+<!-- ============================== method details ========================= -->		
 			
 			
 <!-- ============================== event details ========================= -->		
@@ -442,7 +403,7 @@ ul.inheritsList
 <!-- ============================== footer ================================= -->
 		<div class="fineprint" style="clear:both">
 			
-			Documentation generated by <a href="http://code.google.com/p/jsdoc-toolkit/" target="_blank">JsDoc Toolkit</a> 2.4.0 on Tue Apr 15 2014 14:32:56 GMT+0200 (CEST)
+			Documentation generated by <a href="http://code.google.com/p/jsdoc-toolkit/" target="_blank">JsDoc Toolkit</a> 2.4.0 on Sun May 04 2014 12:57:14 GMT+0200 (CEST)
 		</div>
 	</body>
 </html>
