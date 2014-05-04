@@ -1,6 +1,8 @@
 /**
  * @author Jerome Morino
- * @created 2014-04-14
+ * @created 2014-05-04
+ * @version 0.1
+ * @license MIT
  */
 
 // ensure jQuery has been successfully loaded
